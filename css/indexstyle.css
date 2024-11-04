@@ -1,0 +1,253 @@
+/*Estilo en cascada para index.html*/
+
+body    {
+            padding: 0%;
+            margin: 0%;
+        }
+
+/*Estilo cabecera*/
+#cabecera   {
+                font-family:'Franklin Gothic Medium', 'Arial Narrow';
+                position: sticky;
+                top: 0%;
+                background: linear-gradient(to right, black, rgb(39, 39, 39));
+                color: white;
+                text-align: center;
+                padding-top: 1px;
+                padding-bottom: 28px;
+                z-index: 2;
+            }
+
+#rosa   {
+            position: absolute;
+            width: 400px;
+            top:0px;
+            left:20px;
+            margin: -50px;
+            z-index: 1;
+            opacity: 20%;
+            overflow: hidden;
+        }
+
+#monarca    {
+                position: absolute;
+                width: 300px;
+                top:0px;
+                left:2000px;
+                margin: 30px;
+                z-index: 1;
+                opacity: 30%;
+                overflow: hidden;  
+            }
+
+#titulo     {
+                font-size: 60px;
+                padding: -10px;
+                margin-bottom: 40px;
+            }
+
+/*Clase para separación de span en el navegador*/
+.separacion {
+                margin-left: 200px;
+                font-weight: 600;
+            }
+
+#separacion {
+                margin-left: 0px;
+                font-weight: 600;
+            }
+/*Clase para letra del navegador*/
+.navegador  {
+                text-decoration: none;
+                margin-bottom: 20px;
+                color: white;
+                font-size: 30px;
+            }
+
+.navegador:hover    {
+                        color: gold;
+                    }
+
+/*Presentación eladio*/
+#imagencabecera {
+                    background: linear-gradient( to right,gold, rgb(255, 255, 112));
+                    margin-top: -1%;
+                    width: 1700px;
+                    z-index: 1;
+                }
+
+#eladio {
+            float: left;
+            margin: 0%;
+            padding: 0%;
+            height: 700px;
+            z-index: 1;
+        }
+
+#sendo  {
+            background: linear-gradient( to right,gold, rgb(253, 194, 0));
+            width: 2380px;
+            height: 1200px;
+            border-bottom: solid black 10px;
+        }
+
+#sendotitulo    {
+                    position: absolute;                    
+                    top:600px;
+                    left: 1450px;
+                    text-align: center;
+                    font-family: Arial, Helvetica, sans-serif;
+                    font-size: 60px;
+                    font-style: oblique;
+                    z-index: 1;
+                }
+
+#boton          {
+                    position: absolute;                
+                    top:850px;
+                    left: 1550px;
+                    text-align: center;
+                    font-family: Arial, Helvetica, sans-serif;
+                    font-size: 60px;
+                    font-style: oblique;
+                    z-index: 1;
+                }
+
+button  {
+            background-color: rgba(255, 217, 0, 0);
+            font-size: 40px;
+            font-style: oblique;
+            padding: 5%;
+            border-radius: 10%;
+            border-style: solid black 6px;
+            font-weight: bolder;
+        }
+
+#circulo    {
+                width: 500px;
+                height: 500px;
+                background-color: goldenrod;
+                position: absolute;
+                border-radius: 100%;
+                top: 500px;
+                left: 1700px;
+                z-index: 0; 
+            }
+
+/*Descripción index*/
+.presentacion   {
+                    font-family: Arial, Helvetica, sans-serif;
+                    font-size: 22px;
+                    top: -1%;
+                }
+
+#titulopresentacion     {
+                            font-weight: bolder;
+                            font-size: 40px;
+                            text-align: center;
+                            padding-top: -30px;
+                            font-style: oblique;
+                            text-decoration: underline rgb(89, 0, 92);
+                        }
+
+.texto  {
+            text-align: justify;
+            margin-left: 270px;
+            margin-right: 270px;
+            line-height: 200%;   
+        }
+
+#fotoeladio {
+                text-align: center;
+                
+            }
+
+/*REDES SOCIALES*/
+
+#redessociales  {
+                    padding-top: 50px;
+                    background-color: black;
+                    color:white;
+                    font-family: Arial, Helvetica, sans-serif;
+                    font-style: oblique;
+                    text-align: center;
+                    font-size: 40px;
+                    text-decoration: underline rgb(124, 0, 0);
+                    height: 700px;
+                }
+
+#instagram  {
+                position: absolute;
+                width: 400px;
+                height: 400px;
+                background: linear-gradient(purple, rgb(199, 76, 189), orange);
+                left:200px;
+            }
+
+#facebook  {
+                position: absolute;
+                width: 400px;
+                height: 400px;
+                background-color:rgb(17, 70, 150);
+                left: 600px;
+            }
+            
+#twitter  {
+                position: absolute;
+                width: 400px;
+                height: 400px;
+                background-color:rgb(0, 152, 240);
+                left: 1000px;
+            }
+
+#youtube    {
+                position: absolute;
+                width: 400px;
+                height: 400px;
+                background-color:rgb(218, 0, 0);
+                left: 1400px;
+            }
+
+#spotify    {
+                position: absolute;
+                width: 400px;
+                height: 400px;
+                background-color:rgb(20, 158, 50);
+                left: 1800px;
+            }
+
+.tamano {
+            margin-top: 80px;
+            width: 200px;
+            height: 200px;
+        }
+
+/*Final del texto*/
+
+#textofinal  {
+            text-align: justify;
+            margin-left: 270px;
+            margin-right: 270px;
+            line-height: 200%;
+            color:white;   
+        }
+
+#final          {
+                    font-family: Arial, Helvetica, sans-serif;
+                    font-size: 22px;
+                    top: -1%;
+                    background-color: black;
+                    margin-top: -1%;
+                }
+
+#creadores  {
+                font-family: Arial, Helvetica, sans-serif;
+                color: white;
+                text-align: center;
+                padding: 50px;
+            }
+
+span    {   
+            font-weight: bolder;
+        }
+

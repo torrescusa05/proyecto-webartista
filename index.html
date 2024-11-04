@@ -3,57 +3,67 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ELADIO CARrION</title>
+    <title>ELADIO CARRION</title>
+    <link rel="stylesheet" href="css/indexstyle.css">
 </head>
 <body>
     <!--Encabezado y navegador de páginas-->
-    <div>
-        <h1>ELADIO CARRION</h1>
-        <p>Realizado por: <span>José García Torrescusa & Francisco José Zamora Gonzalez </span></p>
-        <br>
+    <div id="cabecera">
+        <h1 id="titulo"><img src="imagenes/titulo.png"></h1>
+        <img src="imagenes/rosa.png" id="rosa">
+        <img src="imagenes/monarca.png" id="monarca">
+        <div id="fondo1"></div>
         <div>
             <!--Navegador-->
-            <span><a href="web/historia.html">Biografía</a></span>
-            <span><a href="web/discografia.html">Discografia</a></span>
-            <span><a href="web/giras.html">Giras</a></span>
-            <span><a href="web/ultimosexitos.html">Últimos éxitos</a></span>
-            <span><a href="web/bibliografia.html">Bibliografía</a></span>
+            <span id="separacion"><a href="web/historia.html" class="navegador">BIOGRAFÍA</a></span>
+            <span class="separacion"><a href="web/discografia.html" class="navegador">DISCOGRAFÍA</a></span>
+            <span class="separacion"><a href="web/giras.html" class="navegador">GIRAS</a></span>
+            <span class="separacion"><a href="web/ultimosexitos.html" class="navegador">ÚLTIMOS ÉXITOS</a></span>
+            <span class="separacion"><a href="web/bibliografia.html" class="navegador">WEBGRAFÍA</a></span>
         </div>
     </div>
     <!--Imagen como cabecera y texto, en un futuro poner una diapositiva indexada (WordPress)-->
-    <div>
-       <span><img src="imagenes/eladio.jpg"></span>
-       <span><h3>SEN2 KBRN</h3></span> 
+    <div id="imagencabecera">
+       <div id="eladio"><img src="imagenes/eladio.jpg"></div>
+       <div id="sendo">
+            <div id="sendotitulo">
+                <h1>SEN2 KBRN</h1>
+            </div>
+            <div id="boton">
+                <a href="web/discografia.html"><button>Una discografía de ensueño</button></a>
+            </div>
+            <div id="circulo"></div>
+        </div> 
     </div>
     <!--Presentación del trabajo-->
-    <div>
-        <h1>¿Quién es Eladio Carrion?</h1>
-        <p>
+    <div class="presentacion">
+        <div id="titulopresentacion"><h1>¿Quién es Eladio Carrion?</h1></div>
+        <p class="texto">
             <span>Eladio Carrión</span> es un cantante, compositor y rapero puertorriqueño, conocido por su estilo que mezcla reguetón,
             trap y hip hop. Ha ganado popularidad por sus letras introspectivas y colaboraciones con otros artistas reconocidos
             en la escena musical latina. Comenzó su carrera musical en la plataforma de YouTube y ha lanzado varios álbumes y 
             sencillos que han tenido un buen recibimiento tanto en las listas de éxitos como en las redes sociales.
             Además, ha colaborado con artistas como <span>Bad Bunny</span> y <span>J Balvin</span>, lo que ha ampliado su alcance en la industria.
         </p>
+        <div id="fotoeladio"><img src="imagenes/eladio2.jpg"></div>
         <br>
     </div>
     <!--Redes sociales del cantante-->
-    <div>
+    <div id="redessociales">
         <h1>REDES SOCIALES</h1>
+        <div id="instagram"><a href="https://www.instagram.com/eladiocarrion/?hl=es"><img src="imagenes/instagram.png" class="tamano"></a><p>@eladiocarrion</p></div>
+        <div id="facebook"><a href="https://www.facebook.com/officialeladiocarrion/?locale=es_LA"><img src="imagenes/facebook.png" class="tamano"></a><p>Eladio Carrion</p></div>
+        <div id="twitter"><a href="https://x.com/eladiocarry_on?lang=es"><img src="imagenes/x.png" class="tamano"></a><p>@eladiocarry_on</p></div>
+        <div id="youtube"><a href="https://www.youtube.com/c/EladioCarrion/about"><img src="imagenes/youtube.png" class="tamano"></a><p>@EladioCarrion</p></div>
+        <div id="spotify"><a href="https://open.spotify.com/intl-es/artist/5XJDexmWFLWOkjOEjOVX3e?si=PLOCwj_XQNS0OHJKTs_A3g&nd=1&dlsi=d9879c8f8fa04eda"><img src="imagenes/spotify.png" class="tamano"></a><p>Eladio Carrion</p></div>
     </div>
-    <div>
-        <span><div><a href="https://www.instagram.com/eladiocarrion/?hl=es"><img src="imagenes/instagram.png"></a></div></span>
-        <span><div><a href="https://www.facebook.com/officialeladiocarrion/?locale=es_LA"><img src="imagenes/facebook.png"></a></div></span>
-        <span><div><a href="https://x.com/eladiocarry_on?lang=es"><img src="imagenes/x.png"></a></div></span>
-        <span><div><a href="https://www.youtube.com/c/EladioCarrion/about"><img src="imagenes/youtube.png"></a></div></span>
-        <span><div><a href="https://open.spotify.com/intl-es/artist/5XJDexmWFLWOkjOEjOVX3e?si=PLOCwj_XQNS0OHJKTs_A3g&nd=1&dlsi=d9879c8f8fa04eda"><img src="imagenes/spotify.png"></a></div></span>
-    </div>
-    <div>
-        <p>
+    <div id="final">
+        <p id="textofinal">
             ¿Qué esperas para descubrir quién es Eladio Carrion? En este sitio web podrá encontrar información relevante sobre este gran artista, que sorprendió al mundo con su
             gran variación de diferentes flows y sus temas de desamor. Tienes un navegador con todas las páginas para poder visitar todo, pero si quieres estar informado siempre
             de cualquier información, rellene el cuestionario en la página de giras.
         </p>
+        <p id="creadores">Realizado por: <span>José García Torrescusa & Francisco José Zamora González </span></p>
     </div>
 </body>
 </html>
