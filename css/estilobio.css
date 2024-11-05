@@ -3,8 +3,12 @@
 body    {
     padding: 0%;
     margin: 0%;
-}
 
+           
+}
+#fondobio{
+    background: linear-gradient( to bottom,rgb(191, 5, 5), rgb(222, 81, 81));
+}
 /*Estilo cabecera*/
 #cabecera   {
         font-family:'Franklin Gothic Medium', 'Arial Narrow';
@@ -47,7 +51,46 @@ body    {
     }
 
     #texto {
-        margin-right: 400px;
-        margin-left: 400px;
+        margin-right: 500px;
+        margin-left: 300px;
+        font-family: Arial, Helvetica, sans-serif;
     }
     
+    h2{
+        color: white;
+        font-size: 40px;
+        font-style: italic;
+        font-family: cursive;
+    }
+   
+    p{
+        font-weight: bold;
+    }
+    
+#fotowiki{
+    position: absolute;
+    top: 550px;
+    bottom: 1000px;
+    right: 75px;
+}
+/*Clase para separación de span en el navegador*/
+.separacion {
+    margin-left: 200px;
+    font-weight: 600;
+}
+
+#separacion {
+    margin-left: 0px;
+    font-weight: 600;
+}
+/*Clase para letra del navegador*/
+.navegador  {
+    text-decoration: none;
+    margin-bottom: 20px;
+    color: white;
+    font-size: 30px;
+}
+
+.navegador:hover    {
+            color: gold;
+        }
