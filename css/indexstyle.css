@@ -72,8 +72,9 @@ body    {
 #imagencabecera {
                     background: linear-gradient( to right,gold, rgb(255, 255, 112));
                     margin-top: -1%;
-                    width: 1700px;
+                    /*width: 1700px;*/
                     z-index: 1;
+                    border-bottom: solid black 10px;
                 }
 
 #eladio {
@@ -85,10 +86,9 @@ body    {
         }
 
 #sendo  {
-            background: linear-gradient( to right,gold, rgb(253, 194, 0));
             width: 2380px;
             height: 1200px;
-            border-bottom: solid black 10px;
+            /*border-bottom: solid black 10px;*/
         }
 
 #sendotitulo    {
