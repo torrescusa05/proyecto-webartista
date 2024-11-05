@@ -1,0 +1,96 @@
+/*Estilo en cascada para index.html*/
+
+body    {
+    padding: 0%;
+    margin: 0%;
+
+           
+}
+#fondobio{
+    background: linear-gradient( to bottom,rgb(191, 5, 5), rgb(222, 81, 81));
+}
+/*Estilo cabecera*/
+#cabecera   {
+        font-family:'Franklin Gothic Medium', 'Arial Narrow';
+        position: sticky;
+        top: 0%;
+        background: linear-gradient(to right, black, rgb(39, 39, 39));
+        color: white;
+        text-align: center;
+        padding-top: 1px;
+        padding-bottom: 28px;
+        z-index: 2;
+    }
+
+#rosa   {
+    position: absolute;
+    width: 400px;
+    top:0px;
+    left:20px;
+    margin: -50px;
+    z-index: -1;
+    opacity: 20%;
+    overflow: hidden;
+}
+
+#monarca    {
+        position: absolute;
+        width: 300px;
+        top:0px;
+        left:2000px;
+        margin: 30px;
+        z-index: 1;
+        opacity: 30%;
+        overflow: hidden;  
+    }
+
+#titulo     {
+        font-size: 60px;
+        padding: -10px;
+        margin-bottom: 40px;
+    }
+
+    #texto {
+        margin-right: 500px;
+        margin-left: 300px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    h2{
+        color: white;
+        font-size: 40px;
+        font-style: italic;
+        font-family: cursive;
+    }
+   
+    p{
+        font-weight: bold;
+    }
+    
+#fotowiki{
+    position: absolute;
+    top: 550px;
+    bottom: 1000px;
+    right: 75px;
+}
+/*Clase para separación de span en el navegador*/
+.separacion {
+    margin-left: 200px;
+    font-weight: 600;
+}
+
+#separacion {
+    margin-left: 0px;
+    font-weight: 600;
+}
+/*Clase para letra del navegador*/
+.navegador  {
+    text-decoration: none;
+    margin-bottom: 20px;
+    color: white;
+    font-size: 30px;
+}
+
+.navegador:hover    {
+            color: gold;
+        }
