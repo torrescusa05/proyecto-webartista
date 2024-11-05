@@ -1,14 +1,18 @@
 /*Estilo en cascada para index.html*/
 
 body    {
-    padding: 0%;
-    margin: 0%;
+            padding: 0%;
+            margin: 0%;
+        }
 
-           
-}
-#fondobio{
-    background: linear-gradient( to bottom,rgb(191, 5, 5), rgb(222, 81, 81));
-}
+span    {
+            font-weight: bolder;
+        }
+
+#creadores  {
+                text-align: center;
+            }
+
 /*Estilo cabecera*/
 #cabecera   {
         font-family:'Franklin Gothic Medium', 'Arial Narrow';
@@ -46,33 +50,27 @@ body    {
 
 #titulo     {
         font-size: 60px;
-        padding: -10px;
+        padding: 30px 20px;
         margin-bottom: 40px;
+        
     }
 
-    #texto {
-        margin-right: 500px;
-        margin-left: 300px;
+    .texto {
         font-family: Arial, Helvetica, sans-serif;
+        text-align: justify;
     }
     
     h2{
-        color: white;
-        font-size: 40px;
+        color: rgb(0, 0, 0);
+        font-size: 50px;
         font-style: italic;
-        font-family: cursive;
+        font-family: system-ui, apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue';
     }
    
     p{
-        font-weight: bold;
+        font-size: 20px;
+        line-height: 200%;
     }
-    
-#fotowiki{
-    position: absolute;
-    top: 550px;
-    bottom: 1000px;
-    right: 75px;
-}
 /*Clase para separación de span en el navegador*/
 .separacion {
     margin-left: 200px;
@@ -94,3 +92,157 @@ body    {
 .navegador:hover    {
             color: gold;
         }
+
+/*TITULO BIOGRAFIA*/
+.biografia  {
+                font-family: Arial, Helvetica, sans-serif;
+                text-align: center;
+                font-style: oblique;
+                font-size: 80px;
+                background: linear-gradient(to bottom, rgb(105, 0, 0), rgb(105, 0, 0), rgb(255, 255, 255));
+                padding-bottom: 90px;
+                top:0%;
+                
+            }
+
+#biografia      {
+                    margin-top: 0px;
+                    padding: 20px 20px;
+                    text-decoration: underline white 10px;
+                    color: white;
+                }
+
+.margen {
+            margin-left: 500px;
+            margin-right: 500px;
+        }
+/*Imágenes nacimiento*/
+
+#h2 {
+        text-align: center;
+    }
+.galeria    {
+                position: relative;
+                margin-top: 30px;
+                margin-bottom: 50px;
+            }
+
+#tamanoeladio {
+            position: absolute;
+            width: 400px;
+            height: 400px;
+        }
+
+#tamanopr {
+            position: absolute;
+            width: 450px;
+            height: 250px;
+            margin: 5px;
+            top: 400px;
+            
+        }
+
+/*Natación*/
+
+.nadador h2  {
+                text-align: right;
+            }
+
+.nadador    {
+                
+                margin-top: 100px;
+                padding-bottom: 50px;
+            }
+
+#nadador    {  
+                position: relative; 
+                width: 900px;
+                height: 500px;
+                margin-right: 10px;
+                float: left;
+            }
+
+#nadador2    {  
+                position: relative; 
+                width: 800px;
+                height: 400px;
+                margin-right: 10px;
+                float: left;
+            }
+
+/*Carrera*/
+.estilo {
+            background: linear-gradient(to bottom, white, gold);
+            margin: 0;
+            padding: 0;
+        }
+
+#alejarme   {
+                position: relative;
+                float: right;
+                width: 300px;
+                height: 300px;
+                margin-left: 20px;
+            }
+
+/*Flows*/
+
+.flow   {
+            padding-top: 60px;
+            text-align: justify;
+        }
+
+.flow h2    {
+                text-align: center;
+            }
+
+.flow video {
+                position: relative;
+                width: 600px;
+                left: 400px;
+            }
+
+.flow img {
+                position: static;
+                float:left;
+                width: 300px;
+                left: 300px;
+                margin-right: 20px;
+            }
+
+/*Influencia*/
+
+.influencia {
+                margin-top: 90px;
+            }
+
+.concierto {
+                position: static;
+                width:600px;
+                height: 300px;
+                float: left;
+                margin-right: 20px;
+    
+            }
+
+/*Vida personal*/
+
+.vida {
+                margin-top: 120px;
+                text-align: justify;
+                padding-bottom: 100px;
+            }
+
+.vida h2    {
+                text-align: right;
+            }
+
+.kemba {
+                position: static;
+                width:300px;
+                height: 300px;
+                float: left;
+                margin-right: 20px;
+    
+            }
+

@@ -42,8 +42,9 @@ body    {
 
 #titulo     {
                 font-size: 60px;
-                padding: -10px;
+                padding: 30px 20px;
                 margin-bottom: 40px;
+                
             }
 
 /*Clase para separación de span en el navegador*/
@@ -70,7 +71,7 @@ body    {
 
 /*Presentación eladio*/
 #imagencabecera {
-                    background: linear-gradient( to right,gold, rgb(255, 255, 112));
+                    background: linear-gradient( to right,gold, rgb(236, 154, 1));
                     margin-top: -1%;
                     /*width: 1700px;*/
                     z-index: 1;
@@ -104,24 +105,25 @@ body    {
 
 #boton          {
                     position: absolute;                
-                    top:850px;
+                    top:800px;
                     left: 1550px;
                     text-align: center;
                     font-family: Arial, Helvetica, sans-serif;
-                    font-size: 60px;
+                    font-size: 40px;
                     font-style: oblique;
                     z-index: 1;
+                    color:black;
+                    text-decoration: none;
+                    border-style: outset;
+                    margin-top: 30px;
+                    border-radius: 20px;
+                    background-color: goldenrod;
+                    font-style: normal;
                 }
 
-button  {
-            background-color: rgba(255, 217, 0, 0);
-            font-size: 40px;
-            font-style: oblique;
-            padding: 5%;
-            border-radius: 10%;
-            border-style: solid black 6px;
-            font-weight: bolder;
-        }
+#espacio    {
+                padding: 0px 20px 0px 20px;
+            }
 
 #circulo    {
                 width: 500px;
@@ -145,7 +147,6 @@ button  {
                             font-weight: bolder;
                             font-size: 40px;
                             text-align: center;
-                            padding-top: -30px;
                             font-style: oblique;
                             text-decoration: underline rgb(89, 0, 92);
                         }
