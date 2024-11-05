@@ -1,0 +1,112 @@
+/*Estilo en cascada para index.html*/
+
+body    {
+    padding: 0%;
+    margin: 0%;
+}
+
+span    {
+    font-weight: bolder;
+}
+
+#creadores  {
+        text-align: center;
+    }
+
+/*Estilo cabecera*/
+#cabecera   {
+font-family:'Franklin Gothic Medium', 'Arial Narrow';
+position: sticky;
+top: 0%;
+background: linear-gradient(to right, black, rgb(39, 39, 39));
+color: white;
+text-align: center;
+padding-top: 1px;
+padding-bottom: 28px;
+z-index: 2;
+}
+
+#rosa   {
+position: absolute;
+width: 400px;
+top:0px;
+left:20px;
+margin: -50px;
+z-index: -1;
+opacity: 20%;
+overflow: hidden;
+}
+
+#monarca    {
+position: absolute;
+width: 300px;
+top:0px;
+left:2000px;
+margin: 30px;
+z-index: 1;
+opacity: 30%;
+overflow: hidden;  
+}
+
+#titulo     {
+font-size: 60px;
+padding: 30px 20px;
+margin-bottom: 40px;
+
+}
+
+.texto {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+
+p{
+    font-size: 20px;
+    line-height: 200%;
+}
+
+/*Clase para separación de span en el navegador*/
+.separacion {
+    margin-left: 200px;
+    font-weight: 600;
+}
+
+#separacion {
+    margin-left: 0px;
+    font-weight: 600;
+}
+/*Clase para letra del navegador*/
+.navegador  {
+    text-decoration: none;
+    margin-bottom: 20px;
+    color: white;
+    font-size: 30px;
+}
+
+.navegador:hover    {
+            color: gold;
+        }
+
+/*TITULO giras*/
+.giras     {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-style: oblique;
+    font-size: 80px;
+    background: linear-gradient(to bottom, rgb(1, 100, 26), rgb(21, 212, 4), rgb(255, 255, 255));
+    padding-bottom: 90px;
+    top:0%;
+    
+}
+
+#giras     {
+        margin-top: 0px;
+        padding: 20px 20px;
+        text-decoration: underline white 10px;
+        color: white;
+    }
+
+.margen {
+        margin-left: 500px;
+        margin-right: 500px;
+    }
