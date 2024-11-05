@@ -45,3 +45,9 @@ body    {
         padding: -10px;
         margin-bottom: 40px;
     }
+
+    #texto {
+        margin-right: 400px;
+        margin-left: 400px;
+    }
+    
