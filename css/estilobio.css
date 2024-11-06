@@ -177,8 +177,9 @@ body    {
             }
 
 .flow video {
-                position: relative;
-                width: 600px;
+                position: static;
+                margin-left: 200px;
+                width: 500px;
                 left: 400px;
             }
 
