@@ -7,7 +7,7 @@ body    {
 
 /*Estilo cabecera*/
 #cabecera   {
-                font-family:'Franklin Gothic Medium', 'Arial Narrow';
+                font-family: sans-serif;
                 position: sticky;
                 top: 0%;
                 background: linear-gradient(to right, black, rgb(39, 39, 39));
@@ -22,22 +22,24 @@ body    {
             position: absolute;
             width: 300px;
             top:0px;
-            left:20px;
-            margin: -50px;
+            left:0px;
+            margin: -30px 0px 0px 10px;
             z-index: -1;
             opacity: 20%;
             overflow: hidden;
         }
 
 #monarca    {
-                position: absolute;
-                width: 300px;
+                position:static;
+                width: 250px;
                 top:0px;
-                left:2000px;
+                left:0px;
                 margin: 30px;
                 z-index: 1;
                 opacity: 30%;
-                overflow: hidden;  
+                overflow: hidden;
+                float: right;
+                margin-left: -200px;  
             }
 
 #titulo     {
@@ -81,22 +83,24 @@ body    {
                 }
 
 #eladio {
+            position: relative;
             margin: 0%;
             padding: 0%;
-            width: 650px;
+            width: 800px;
             z-index: 1;
+            float: left;
         }
 
 #sendo  {
             width: 2380px;
-            height: 1200px;
+            height: 800px;
             /*border-bottom: solid black 10px;*/
         }
 
 #sendotitulo    {
                     position: absolute;                    
-                    top:600px;
-                    left: 1450px;
+                    top:400px;
+                    left: 1000px;
                     text-align: center;
                     font-family: Arial, Helvetica, sans-serif;
                     font-size: 60px;
@@ -106,20 +110,25 @@ body    {
 
 #boton          {
                     position: absolute;                
-                    top:800px;
-                    left: 1550px;
+                    top:600px;
+                    left:1150px;
                     text-align: center;
                     font-family: Arial, Helvetica, sans-serif;
-                    font-size: 40px;
+                    font-size: 25px;
                     font-style: oblique;
                     z-index: 1;
                     color:black;
                     text-decoration: none;
-                    border-style: outset;
+                    border-style:groove;
                     margin-top: 30px;
                     border-radius: 20px;
-                    background-color: goldenrod;
                     font-style: normal;
+                }
+
+#boton:hover    {
+                    color:white;
+                    font-style: oblique;
+                    font-weight: bold;
                 }
 
 #espacio    {
@@ -129,11 +138,11 @@ body    {
 #circulo    {
                 width: 500px;
                 height: 500px;
-                background-color: goldenrod;
+                background-color: orange;
                 position: absolute;
                 border-radius: 100%;
-                top: 500px;
-                left: 1700px;
+                top: 300px;
+                left: 1100px;
                 z-index: 0; 
             }
 
@@ -166,62 +175,66 @@ body    {
 
 /*REDES SOCIALES*/
 
-#redessociales  {
+.redessociales  {
                     padding-top: 50px;
-                    background-color: black;
-                    color:white;
+                    position: static;
+                    background-image: url('../imagenes/redessociales.png');
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    color:rgb(255, 255, 255);
                     font-family: Arial, Helvetica, sans-serif;
                     font-style: oblique;
                     text-align: center;
-                    font-size: 40px;
-                    text-decoration: underline rgb(124, 0, 0);
-                    height: 700px;
+                    font-size: 20px;
+                    text-decoration: underline rgb(43, 43, 43);
+                    height: 500px;
                 }
 
 #instagram  {
-                position: absolute;
-                width: 400px;
-                height: 400px;
+                /*position: relative;*/
+                width: 300px;
+                height: 300px;
                 background: linear-gradient(purple, rgb(199, 76, 189), orange);
-                left:200px;
+                float: left;
+                margin-left: 200px;
             }
 
 #facebook  {
-                position: absolute;
-                width: 400px;
-                height: 400px;
+                /*position: relative;*/
+                width: 300px;
+                height: 300px;
                 background-color:rgb(17, 70, 150);
-                left: 600px;
+                float: left;
             }
             
 #twitter  {
-                position: absolute;
-                width: 400px;
-                height: 400px;
+                /*position: relative;*/
+                width: 300px;
+                height: 300px;
                 background-color:rgb(0, 152, 240);
-                left: 1000px;
+                float: left;
             }
 
 #youtube    {
-                position: absolute;
-                width: 400px;
-                height: 400px;
+                /*position: relative;*/
+                width: 300px;
+                height: 300px;
                 background-color:rgb(218, 0, 0);
-                left: 1400px;
+                float: left;
             }
 
 #spotify    {
-                position: absolute;
-                width: 400px;
-                height: 400px;
+                /*position: relative;*/
+                width: 300px;
+                height: 300px;  
                 background-color:rgb(20, 158, 50);
-                left: 1800px;
+                float: left;
+                margin-right: 200px;
             }
 
 .tamano {
             margin-top: 80px;
-            width: 200px;
-            height: 200px;
+            width: 100px;
         }
 
 /*Final del texto*/
@@ -237,9 +250,8 @@ body    {
 #final          {
                     font-family: Arial, Helvetica, sans-serif;
                     font-size: 22px;
-                    top: -1%;
                     background-color: black;
-                    margin-top: -1%;
+                    padding: 10px;
                 }
 
 #creadores  {
