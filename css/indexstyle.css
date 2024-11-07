@@ -196,7 +196,7 @@ body    {
                 height: 300px;
                 background: linear-gradient(purple, rgb(199, 76, 189), orange);
                 float: left;
-                margin-left: 200px;
+                margin-left: 0px;
             }
 
 #facebook  {
